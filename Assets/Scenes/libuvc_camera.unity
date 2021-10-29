@@ -198,7 +198,7 @@ MonoBehaviour:
   SecondsTimeout: 10
   Serializer: 0
   protocol: 0
-  RosBridgeServerUrl: ws://192.168.0.1:9090
+  RosBridgeServerUrl: ws://192.168.1.36:9090
 --- !u!4 &138304881
 Transform:
   m_ObjectHideFlags: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6e2677fa36b0c46a9f6d8bd354c686, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /head_camera/image_raw/compressed
+  Topic: //image_raw/compressed
   TimeStep: 0
   meshRenderer: {fileID: 1275970739}
 --- !u!114 &1275970737
@@ -347,7 +347,7 @@ MonoBehaviour:
   SecondsTimeout: 10
   Serializer: 0
   protocol: 0
-  RosBridgeServerUrl: ws://192.168.0.1:9090
+  RosBridgeServerUrl: ws://192.168.1.36:9090
 --- !u!64 &1275970738
 MeshCollider:
   m_ObjectHideFlags: 0

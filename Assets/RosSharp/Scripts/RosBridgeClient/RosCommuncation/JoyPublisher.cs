@@ -26,6 +26,7 @@ namespace RosSharp.RosBridgeClient
 
         protected override void Start()
         {
+            System.Threading.Thread.Sleep(3000);
             base.Start();
             InitializeGameObject();
             InitializeMessage();
